@@ -67,7 +67,7 @@
   **b.** 上面登录成功后，安装`1.重置密码中的f步骤修改密码即可`
 * 3、允许远程访问
   >mysql 8.0 root用户默认只有localhost访问权限，因此需要经过如下配置才能远程访问mysql：
-  ```Shell
+  ```shell
   ~\bin>mysql -uroot -P你的密码
   #### mysql 版本信息描述 ####
   mysql> select user,host from user where user='root';  ###查询user用户表的root用户的host信息
