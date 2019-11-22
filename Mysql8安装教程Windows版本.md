@@ -71,7 +71,7 @@
   ~\bin>mysql -uroot -P你的密码
   #### mysql 版本信息描述 ####
   mysql> select user,host from user where user='root';  ###查询user用户表的root用户的host信息
-  +------+------------+
+  +------+--------------+
   | user | host         |
   +------+--------------+
   | root | localhost    |
@@ -81,4 +81,5 @@
   mysql> quit ;  ###退出
   ```
 #### 三、 客户端安装
+
 #### 四、 数据库创建
